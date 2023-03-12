@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class circumference {
 
-    public static double circumference(int radius) {
+    public static double circumferenceOfTheCircle(int radius) {
         return 2 * 3.14 * radius;
     }
 
@@ -14,6 +14,6 @@ public class circumference {
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
         int radius = Integer.parseInt(buffer.readLine());
 
-        System.out.println("Circumference of the circle: " + circumference(radius));
+        System.out.println("Circumference of the circle: " + circumferenceOfTheCircle(radius));
     }
 }
